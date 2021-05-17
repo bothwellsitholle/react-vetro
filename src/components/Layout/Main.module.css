@@ -1,0 +1,28 @@
+.main__wrapper {
+  position: relative;
+  top: 4.5rem;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  z-index: 5;
+  overflow-y: scroll;
+}
+
+.main__siderbar {
+  position: fixed;
+  flex: 0.15;
+  min-width: 140px;
+  background-color: cornflowerblue;
+  height: 100vh;
+  background-color: #ffffff;
+  /* box-shadow: 0 2px 8px rgba(0,0,0,0.3); */
+  border-right: 1px solid light-grey;
+  z-index: 3;
+}
+
+.main__content {
+  flex: 0.9;
+  background-color: #f6f6f6;
+  z-index: 1;
+  overflow-y: scroll;
+}

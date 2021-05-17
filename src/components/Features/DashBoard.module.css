@@ -1,0 +1,14 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  min-width: 80%;
+  margin-top: 20px;
+  padding: 15px;
+  /* padding-bottom: 20px; */
+  margin-left: 150px;
+}
+
+.dashboard__section {
+  margin: 2%;
+  display: flex;
+}

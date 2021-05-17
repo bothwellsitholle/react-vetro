@@ -1,0 +1,49 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin-top: 3px;
+  margin-left: 10px;
+  margin-right: 5px;
+
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}
+
+th {
+  background-color: #ffeb3b;
+  z-index: 30;
+  border-radius: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #ececec;
+}
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tr:hover {
+  background-color: #eaffb1;
+}
+
+.liststores {
+  overflow: scroll;
+  width: 100%;
+  height: 100vh;
+  background: #f8f8f5;
+  margin-left: 190px;
+  width: 100%;
+}
+
+.liststores p {
+  display: block;
+  text-align: center;
+  margin-top: 60px;
+  font-weight: 700;
+}

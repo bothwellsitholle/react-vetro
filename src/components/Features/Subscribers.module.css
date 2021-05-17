@@ -1,0 +1,103 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin-top: 3px;
+  margin-left: 10px;
+  margin-right: 5px;
+  /* border-top-left-radius: 15px; */
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}
+
+th {
+  background-color: #ffeb3b;
+  z-index: 30;
+  border-radius: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #ececec;
+}
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tr:hover {
+  background-color: #eaffb1;
+}
+
+.liststores {
+  overflow: scroll;
+  width: 100%;
+  height: 100vh;
+  background: #f8f8f5;
+  margin-left: 190px;
+  width: 100%;
+}
+
+.liststores p {
+  display: block;
+  text-align: center;
+  margin-top: 60px;
+  font-weight: 700;
+}
+
+.liststores span {
+  margin: 2;
+  font-size: 14px;
+  cursor: pointer;
+  color: #1f1f1f;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+.liststores span:hover {
+  margin: 2;
+  font-size: 14px;
+  cursor: pointer;
+  color: #db0700;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+.modal {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.modal p {
+  display: block;
+  /* margin-right: 50px; */
+}
+
+.modal button {
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  background-color: #ffca28;
+  border: none;
+  color: black;
+  font-weight: 800;
+  font-size: large;
+  cursor: pointer;
+}
+
+.modal button:hover {
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  background-color: #191a19;
+  border: 1px solid #ffca28;
+  color: #ffca28;
+  font-weight: 800;
+  font-size: large;
+}

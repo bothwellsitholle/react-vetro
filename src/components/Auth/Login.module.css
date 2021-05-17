@@ -1,0 +1,128 @@
+.form__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  z-index: 5;
+  width: 30%;
+  min-width: 400px;
+  min-height: 50vh;
+  align-self: center;
+  margin-top: 15%;
+  margin-bottom: 10px;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.form__container label {
+  font-weight: bolder;
+  color: #2b2628;
+  padding-bottom: 10px;
+  align-self: flex-start;
+}
+
+.form__control {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  padding: 10%;
+  width: 75%;
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-top: 5%;
+}
+
+.heading h2 {
+  margin-bottom: 5%;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.form__inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.form__inputs input {
+  width: 100%;
+  height: 2rem;
+  border-width: 0 0 1px 0;
+  outline: none;
+  margin-bottom: 5%;
+}
+
+.form__inputs input:focus {
+  /* background-color: #eceff1; */
+  background-color: none;
+  border: none;
+  height: 2.5rem;
+  border-bottom: 1px solid black;
+}
+
+.form__actions {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.form__actions p {
+  padding-left: 15px;
+  font-size: small;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 5%;
+  cursor: pointer;
+}
+
+.form__actions p:hover {
+  padding-left: 15px;
+  font-size: small;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 5%;
+  color: #ffca28;
+}
+
+.heading p {
+  color: rgb(240, 65, 65);
+}
+
+.form__actions button {
+  width: 100%;
+  height: 3rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  background-color: #ffca28;
+  border: none;
+  color: black;
+  font-weight: 800;
+  font-size: large;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.form__actions button:hover {
+  width: 100%;
+  height: 3rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  background-color: #191a19;
+  border: 1px solid #ffca28;
+  color: #ffca28;
+  font-weight: 800;
+  font-size: large;
+}

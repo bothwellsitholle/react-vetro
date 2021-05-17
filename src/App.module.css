@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  /* overflow-y: hidden; */
+}
+
+.mainApp {
+  display: flex;
+  flex-direction: column;
+}

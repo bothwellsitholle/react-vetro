@@ -1,0 +1,47 @@
+.header__wrapper {
+  position: fixed;
+  height: 4.5rem;
+  width: 100%;
+  background-color: rgb(12, 12, 12);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 8%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.header__wrapper img {
+  object-fit: contain;
+  height: 2.5rem;
+  cursor: pointer;
+}
+
+.header__nav > button {
+  cursor: pointer;
+  max-width: 8rem;
+  min-width: 5.7rem;
+  height: 2.5rem;
+  border-radius: 15px;
+  font-family: Montserrat;
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  background: #ffeb3b;
+  color: black;
+  font-weight: bold;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: medium;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  z-index: 11;
+  margin: 5px;
+}
+
+.header__nav > button:hover {
+  background: #f4511e;
+  color: white;
+  /* box-shadow: 0 2px 8px rgba(0,0,0,0.3); */
+}
